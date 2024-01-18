@@ -3,7 +3,7 @@ import pandas as pd
 
 path = './CIC-IDS2017/MachineLearningCVE/'
 
-csv_data = pd.read_csv(path+'Wednesday-workingHours.pcap_ISCX.csv')  # 读取数据
+csv_data = pd.read_csv(path+'Wednesday-workingHours.pcap_ISCX.csv')  # Read data
 
 
 
