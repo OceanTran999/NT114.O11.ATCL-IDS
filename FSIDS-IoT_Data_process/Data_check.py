@@ -1,6 +1,6 @@
 import pandas as pd
 
-# csv_data = pd.read_csv('F:/GraduateStudy/DataSet/Z2--NSL-KDD/KDDTest+.txt')  # 读取训练数据
+# csv_data = pd.read_csv('F:/GraduateStudy/DataSet/Z2--NSL-KDD/KDDTest+.txt')  # Read training data
 
 # print(csv_data.shape)
 # print(csv_data.columns)
@@ -40,7 +40,7 @@ col_names = ["duration", "protocol_type", "service", "flag", "src_bytes",
 
              "dst_host_rerror_rate", "dst_host_srv_rerror_rate", "label", "r"]  # 42个标识
 
-csv_data = pd.read_csv('F:/GraduateStudy/DataSet/Z2--NSL-KDD/KDDTest+.txt', names = col_names)  # 读取训练数据
+csv_data = pd.read_csv('F:/GraduateStudy/DataSet/Z2--NSL-KDD/KDDTest+.txt', names = col_names)  # Read training data
 
 print(csv_data.shape)
 print(csv_data.columns)
